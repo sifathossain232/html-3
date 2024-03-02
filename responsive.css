@@ -1,0 +1,101 @@
+@media screen and (max-width: 1400px) {
+  .header {
+    max-width: 100%;
+    margin: 0px 20px;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .banner{
+    padding: 0px 20px 0px 20px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .header-menu {
+    gap: 20px;
+    font-size: 16px;
+  }
+  .banner-content h2{
+    font-size: 30px;
+
+  } 
+.block{
+    display: inline-flex;
+    
+    }
+    .banner-img img{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner{
+        gap: 50px;
+    }
+    .banner-content p{
+        font-size: 18px;
+    }
+    .banner-img img{
+        width: 98%;
+    }
+    .banner-content h2{
+        font-size: 20px;
+    
+      }
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .block{
+        display: block;
+        
+        }
+        .banner-btn{
+            display: flex;
+            justify-content: center;
+        }
+        .banner-content{
+            margin-top: 30px;
+        }
+}
+
+@media screen and (max-width: 576px) {
+
+    .banner-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-content{
+        margin-top: 30px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .bar-icons{
+        display: block;
+    }
+    .banner-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+@media screen and (max-width: 400px){
+    .banner-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
